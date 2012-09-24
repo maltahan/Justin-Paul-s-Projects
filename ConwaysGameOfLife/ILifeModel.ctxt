@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=int\ getCanvasWidth()
+comment0.text=\nreturns\ the\ correct\ width\ of\ the\ Life\ canvas\n\n
+comment1.target=int\ getCanvasHeight()
+comment1.text=\nreturns\ the\ correct\ height\ of\ the\ Life\ canvas\n\n
+comment2.params=g
+comment2.target=void\ drawOnCanvas(Graphics2D)
+comment2.text=\ncontains\ code\ to\ draw\ the\ canvas\ correctly\nyou'll\ probably\ want\ to\ use\ the\ Graphics2D\nfillRect()\ method\n\n
+comment3.params=x\ y
+comment3.target=void\ handleClick(int,\ int)
+comment3.text=\ngiven\ the\ x\ and\ y\ coordinate\ where\ a\ user\ clicked,\nchanges\ the\ state\ of\ the\ correct\ cell.\ If\ it\ was\ on,\nchange\ it\ to\ off,\ if\ off,\ change\ to\ on.\n\n
+comment4.target=void\ clearCells()
+comment4.text=\nsets\ all\ cells\ to\ off\n\n
+comment5.params=isScreenWrapped
+comment5.target=void\ setIsScreenWrapped(boolean)
+comment5.text=\ndetermines\ whether\ the\ screen\ is\ considered\ "wrapped",\ni.e.\ if\ the\ top\ row\ considers\ the\ bottom\ row\ a\ neighbor\nand\ the\ left-most\ row\ considers\ the\ right-most\ a\ neighbor\nand\ vice\ versa\n\n
+comment6.target=void\ step()
+comment6.text=\nchanges\ the\ state\ of\ the\ model\ to\ the\ next\ state\noff\ cells\ with\ exactly\ three\ on\ neighbors\ turn\ on\non\ cells\ with\ exactly\ two\ or\ three\ neighbors\ stay\ on\nall\ other\ cells\ end\ up\ off\n\n
+comment7.params=out
+comment7.target=void\ printToFile(PrintStream)
+comment7.text=\nprints\ a\ text\ file\ from\ which\ the\ current\ state\ can\ be\ndetermined.\ The\ format\ is\n+-------------------+\n|rows\ cols\ cellSize\ |\n|r1\ c1\ \ \ \ \ \ \ \ \ \ \ \ \ \ |\n|r2\ c2\ \ \ \ \ \ \ \ \ \ \ \ \ \ |\n|...\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\n|rn\ cn\ \ \ \ \ \ \ \ \ \ \ \ \ \ |\n|\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\n+-------------------+\nwhere\ each\ cell\ at\ row\ r\ and\ column\ c\ is\ on\nfor\ each\ of\ the\ r's\ and\ c's\n\n
+comment8.params=in
+comment8.target=void\ readFromScanner(Scanner)
+comment8.text=\nreads\ a\ text\ file\ in\ the\ form\ given\ by\ printToFile\ and\nsets\ the\ state\ of\ this\ model\ appropriately\n\n
+numComments=9

@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=model
+comment0.target=LifeGUI(ILifeModel)
+comment1.target=void\ initComponents()
+comment2.params=evt
+comment2.target=void\ stepActionPerformed(java.awt.event.ActionEvent)
+comment3.params=evt
+comment3.target=void\ loadFileActionPerformed(java.awt.event.ActionEvent)
+comment4.params=evt
+comment4.target=void\ saveFileActionPerformed(java.awt.event.ActionEvent)
+comment5.params=evt
+comment5.target=void\ clearActionPerformed(java.awt.event.ActionEvent)
+comment6.params=evt
+comment6.target=void\ playActionPerformed(java.awt.event.ActionEvent)
+comment7.params=evt
+comment7.target=void\ stopActionPerformed(java.awt.event.ActionEvent)
+comment8.params=evt
+comment8.target=void\ wrapCheckBoxActionPerformed(java.awt.event.ActionEvent)
+comment9.params=evt
+comment9.target=void\ speedStateChanged(javax.swing.event.ChangeEvent)
+numComments=10

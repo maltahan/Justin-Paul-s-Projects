@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=rows\ cols\ cellSize
+comment0.target=LifeModelOld(int,\ int,\ int)
+comment1.target=int\ getCanvasWidth()
+comment10.params=out
+comment10.target=void\ printToFile(PrintStream)
+comment11.params=in
+comment11.target=void\ readFromScanner(Scanner)
+comment2.target=int\ getCanvasHeight()
+comment3.params=g
+comment3.target=void\ drawOnCanvas(Graphics2D)
+comment4.params=x\ y
+comment4.target=void\ handleClick(int,\ int)
+comment5.target=void\ clearCells()
+comment6.params=isScreenWrapped
+comment6.target=void\ setIsScreenWrapped(boolean)
+comment7.target=void\ step()
+comment8.params=i\ j
+comment8.target=int\ Public(int,\ int)
+comment9.params=i\ j
+comment9.target=int\ Private(int,\ int)
+numComments=12
