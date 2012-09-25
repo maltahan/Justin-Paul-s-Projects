@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=length
+comment0.target=String\ solidLine(int)
+comment1.params=length
+comment1.target=String\ openLine(int)
+comment10.params=height
+comment10.target=String\ makeFall(int)
+comment11.params=args
+comment11.target=void\ main(String[])
+comment2.params=length
+comment2.target=String\ space(int)
+comment3.params=width\ height
+comment3.target=String\ makeRectangle(int,\ int)
+comment4.params=side
+comment4.target=String\ makeSquare(int)
+comment5.params=height
+comment5.target=String\ makeLeftTriangle(int)
+comment6.params=height
+comment6.target=String\ makeRightTriangle(int)
+comment7.params=side
+comment7.target=String\ makeHexagon(int)
+comment8.params=side
+comment8.target=String\ makeOctagon(int)
+comment9.params=side
+comment9.target=String\ makeX(int)
+numComments=12

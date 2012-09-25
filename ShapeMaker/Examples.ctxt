@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=t
+comment0.target=void\ testMakeRectangle1(Tester)
+comment1.params=t
+comment1.target=void\ testMakeSquare1(Tester)
+comment2.params=t
+comment2.target=void\ testMakeHexagon1(Tester)
+comment3.params=t
+comment3.target=void\ testMakeOctagon1(Tester)
+comment4.params=t
+comment4.target=void\ testMakeX1(Tester)
+comment5.params=t
+comment5.target=void\ testMakeX2(Tester)
+comment6.params=t
+comment6.target=void\ testLeftTriangle1(Tester)
+comment7.params=t
+comment7.target=void\ testRightTriangle1(Tester)
+comment8.params=args
+comment8.target=void\ main(String[])
+numComments=9
