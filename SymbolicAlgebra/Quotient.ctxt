@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=left\ right
+comment0.target=Quotient(IExpression,\ IExpression)
+comment1.params=x
+comment1.target=double\ eval(double)
+comment2.params=that
+comment2.target=boolean\ equals(Quotient)
+comment3.params=that
+comment3.target=boolean\ equals(Object)
+comment4.target=IExpression\ simplify()
+comment5.target=IExpression\ derivative()
+numComments=6

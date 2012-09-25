@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=left\ right\ operation
+comment0.target=Binary(IExpression,\ IExpression,\ String)
+comment1.target=IExpression\ getLeft()
+comment10.target=IExpression\ derivative()
+comment2.target=IExpression\ getRight()
+comment3.target=String\ getOperation()
+comment4.target=boolean\ containsVar()
+comment5.target=String\ toString()
+comment6.target=String\ toSmartString()
+comment7.target=int\ getPrecedence()
+comment8.params=that
+comment8.target=boolean\ equals(Object)
+comment9.target=IExpression\ simplify()
+numComments=11

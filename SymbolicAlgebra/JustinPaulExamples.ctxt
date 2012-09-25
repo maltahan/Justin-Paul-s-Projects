@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=t
+comment0.target=void\ testNumber(tester.Tester)
+comment1.params=t
+comment1.target=void\ testVar(tester.Tester)
+comment10.params=t
+comment10.target=void\ testLn(tester.Tester)
+comment11.params=args
+comment11.target=void\ main(java.lang.String[])
+comment2.params=t
+comment2.target=void\ testSum(tester.Tester)
+comment3.params=t
+comment3.target=void\ testDifference(tester.Tester)
+comment4.params=t
+comment4.target=void\ testProduct(tester.Tester)
+comment5.params=t
+comment5.target=void\ testQuotient(tester.Tester)
+comment6.params=t
+comment6.target=void\ testExponentiation(tester.Tester)
+comment7.params=t
+comment7.target=void\ testNeg(tester.Tester)
+comment8.params=t
+comment8.target=void\ testSin(tester.Tester)
+comment9.params=t
+comment9.target=void\ testCos(tester.Tester)
+numComments=12

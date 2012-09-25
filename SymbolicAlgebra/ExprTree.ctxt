@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=input
+comment0.target=ExprTree(TreeNodeStream)
+comment1.params=input\ state
+comment1.target=ExprTree(TreeNodeStream,\ RecognizerSharedState)
+comment2.target=String[]\ getTokenNames()
+comment3.target=String\ getGrammarFileName()
+comment4.target=IExpression\ expression()
+comment5.target=IExpression\ expr()
+numComments=6

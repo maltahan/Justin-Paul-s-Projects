@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=expr
+comment0.target=Unary(IExpression)
+comment1.target=IExpression\ getExpr()
+comment2.target=boolean\ containsVar()
+comment3.target=int\ getPrecedence()
+comment4.target=String\ getName()
+comment5.target=String\ toString()
+comment6.target=String\ toSmartString()
+comment7.params=that
+comment7.target=boolean\ equals(Object)
+comment8.target=IExpression\ simplify()
+comment9.target=IExpression\ derivative()
+numComments=10

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=expr
+comment0.target=Cos(IExpression)
+comment1.params=x
+comment1.target=double\ eval(double)
+comment2.target=String\ getName()
+comment3.params=that
+comment3.target=boolean\ equals(Cos)
+comment4.params=that
+comment4.target=boolean\ equals(Object)
+comment5.target=IExpression\ simplify()
+comment6.target=IExpression\ derivative()
+numComments=7

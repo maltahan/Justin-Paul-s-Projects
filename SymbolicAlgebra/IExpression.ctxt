@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=boolean\ containsVar()
+comment1.params=x
+comment1.target=double\ eval(double)
+comment2.target=String\ toString()
+comment3.target=String\ toSmartString()
+comment4.target=int\ getPrecedence()
+comment5.target=IExpression\ simplify()
+comment6.target=IExpression\ derivative()
+numComments=7

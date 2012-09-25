@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=input
+comment0.target=ExpressionParser(TokenStream)
+comment1.params=input\ state
+comment1.target=ExpressionParser(TokenStream,\ RecognizerSharedState)
+comment10.target=ExpressionParser.expExpr_return\ expExpr()
+comment11.target=ExpressionParser.parenExpr_return\ parenExpr()
+comment12.target=ExpressionParser.atom_return\ atom()
+comment2.params=adaptor
+comment2.target=void\ setTreeAdaptor(TreeAdaptor)
+comment3.target=TreeAdaptor\ getTreeAdaptor()
+comment4.target=String[]\ getTokenNames()
+comment5.target=String\ getGrammarFileName()
+comment6.target=ExpressionParser.expr_return\ expr()
+comment7.target=ExpressionParser.addExpr_return\ addExpr()
+comment8.target=ExpressionParser.multExpr_return\ multExpr()
+comment9.target=ExpressionParser.unaryExpr_return\ unaryExpr()
+numComments=13
