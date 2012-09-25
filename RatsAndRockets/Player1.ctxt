@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=facing\ speed\ cheese
+comment0.target=Player1(java.lang.String,\ int,\ int)
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ rocketGo()
+comment3.params=
+comment3.target=void\ loseCheese()
+comment4.params=
+comment4.target=void\ getCheese()
+comment5.params=
+comment5.target=void\ spreadCheese()
+numComments=6
