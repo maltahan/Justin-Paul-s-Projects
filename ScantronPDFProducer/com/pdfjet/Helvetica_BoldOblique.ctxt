@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ getBBoxLLx()
+comment1.params=
+comment1.target=int\ getBBoxLLy()
+comment2.params=
+comment2.target=int\ getBBoxURx()
+comment3.params=
+comment3.target=int\ getBBoxURy()
+comment4.params=
+comment4.target=int\ getUnderlinePosition()
+comment5.params=
+comment5.target=int\ getUnderlineThickness()
+comment6.params=
+comment6.target=int[][]\ getMetrics()
+numComments=7

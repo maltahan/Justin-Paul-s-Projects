@@ -1,0 +1,28 @@
+        PNGSUITE
+----------------
+
+        testset for PNG-(de)coders
+        created by Willem van Schaik
+------------------------------------
+
+This is a collection of graphics images created to test the png applications
+like viewers, converters and editors. All (as far as that is possible)
+formats supported by the PNG standard are represented.
+
+You will find in total 6 files
+
+-   PngSuite.README     - this file
+-   PngSuite.png        - image with PngSuite logo
+-   PngSuite.doc        - description of all the various tests
+-   PngSuite.tar.gz     - archive of all PNG testfiles
+-   PngSuite.zip        - same in .zip format for PCs
+-   PngSuiteWWW.tar.gz  - archive of testfiles, reference files (.gif)
+                  and webpages to enable easy browsing
+
+--------
+    (c) Willem van Schaik
+    willem@schaik.com
+        Singapore, March 1998
+--------
+
+http://www.schaik.com/pngsuite/

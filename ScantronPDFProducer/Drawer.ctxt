@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Drawer()
+comment1.params=
+comment1.target=void\ test()
+comment2.params=questions\ numCols
+comment2.target=void\ runQuest(java.util.LinkedList,\ int)
+comment3.params=questions
+comment3.target=void\ run(int)
+numComments=4

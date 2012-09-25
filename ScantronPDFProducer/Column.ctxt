@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=numCol
+comment0.target=Column(int)
+comment1.params=array
+comment1.target=java.lang.String\ arrayToString(java.util.LinkedList)
+comment2.params=question
+comment2.target=java.lang.String\ create(java.lang.String)
+numComments=3

@@ -1,0 +1,353 @@
+# .java to .cs translation dictionary
+
+# Packages, imports and namespaces
+package com.pdfjet;=
+import java.lang.*;=using System;
+import java.io.*;=using System.IO;
+import java.util.*;=using System.Collections;using System.Collections.Generic;
+import java.util.zip.*;=using System.IO.Compression;
+import java.text.*;=using System.Text;
+
+//>>>>pdfjet {=namespace PDFjet.NET {
+//<<<<}=}   // End of namespace PDFjet.NET
+import com.pdfjet.*;=using PDFjet.NET;
+
+@Deprecated=[Obsolete("")]
+
+read(InputStream inputStream)=read(Stream inputStream)
+
+public PDF(OutputStream buf) throws Exception { this(buf, 0); }=public PDF(Stream buf) : this(buf, 0) {}
+
+System.exit(-1)=Environment.Exit(-1)
+
+protected=internal
+
+TextCompact.TABLE[str.charAt(i)][1]=TextCompact.TABLE[str[i],1]
+TextCompact.TABLE[str.charAt(i + 1)][1]=TextCompact.TABLE[str[i + 1],1]
+TextCompact.TABLE[ch][1]=TextCompact.TABLE[ch,1]
+TextCompact.TABLE[ch][2]=TextCompact.TABLE[ch,2]
+public static int[][] TABLE=public static int[,] TABLE
+String.valueOf(PDF417.TABLE[row][k])=PDF417.TABLE[row,k].ToString()
+
+code.charAt(j)=code[j]
+map.get(str.charAt(i))=map[str[i]]
+
+throws Exception {={
+throws IOException {={
+
+# Date and Time
+Date date=DateTime date
+new Date()=new DateTime(DateTime.Now.Ticks)
+sdf1.format(date)=sdf1.Format(date)
+sdf2.format(date)=sdf2.Format(date)
+nf.format=nf.Format
+
+# Math
+Math.abs=Math.Abs
+Math.log=Math.Log
+Math.pow=Math.Pow
+Math.floor=Math.Floor
+Double.valueOf=Double.Parse
+Integer.valueOf=Integer.Parse
+
+# Arrays
+System.arraycopy=Array.Copy
+int[][] buffer=int[,] buffer
+int[32][31]=int[32,31]
+buffer[32][31]=buffer[32,31]
+buffer[i][j]=buffer[i,j]
+buffer[i][0]=buffer[i,0]
+buffer[i][30]=buffer[i,30]
+dict.add(0,=dict.Insert(0,
+
+# Classes are called 'Types' in .NET and are instantiated using different syntax
+Class.forName(fontName).newInstance()=Activator.CreateInstance(Type.GetType(fontName))
+Class.forName("com.pdfjet." + name.replace('-', '_')).newInstance()=Activator.CreateInstance(Type.GetType("PDFjet.NET." + name.Replace('-', '_')))
+getClass().getClassLoader().getResourceAsStream("icc-profiles/sRGB_IEC61966-2-1_black_scaled.icc"))=new FileStream("icc-profiles/sRGB_IEC61966-2-1_black_scaled.icc", FileMode.Open))
+
+# Misc
+new String(buf, fontNameOffset, length)=System.Text.Encoding.ASCII.GetString(buf, fontNameOffset, length)
+Integer.toHexString(otf.firstChar)=Convert.ToString(otf.firstChar, 16)
+Integer.toHexString(otf.lastChar)=Convert.ToString(otf.lastChar, 16)
+Integer.toHexString(c)=Convert.ToString(c, 16)
+buf.toString().split("\\s")=buf.ToString().Split(new Char[] {' ', '\r', '\n', '\t'})
+str.split("\\s")=str.Split(new Char[] {' ', '\r', '\n', '\t'})
+data.get(numOfCols * i + j)=data[numOfCols * i + j]
+dataRow.get(++j)=dataRow[++j]
+dataRow.get(j)=dataRow[j]
+this.points.get(0).x=this.points[0].x
+this.points.get(points.size() - 1).x=this.points[points.size() - 1].x
+bis.read(=bis.ReadByte(
+
+# These two lines go together - the order is important
+new Integer(sb.length())=sb.Length
+Integer=Int32
+Character=Char
+
+# Streams
+sb.toString().getBytes("UTF-8")=(new System.Text.UTF8Encoding()).GetBytes(sb.ToString())
+read(buf, 0, buf.length)=Read(buf, 0, (int) buf.Length)
+buf.write(xml[i])=buf.WriteByte(xml[i])
+buf.write(b)=buf.WriteByte(b)
+bis.read()=bis.Read()
+baos.write(ch)=baos.WriteByte((byte) ch)
+baos.size()=baos.Length
+baos2.size()=baos2.Length
+java.io.InputStream=System.IO.Stream
+BufferedReader(new FileReader(fileName))=StreamReader(fileName)
+BufferedReader=StreamReader
+FileInputStream(fileName)=FileStream(fileName, FileMode.Open)
+FileInputStream=FileStream
+FileOutputStream(fileName)=FileStream(fileName, FileMode.Create)
+FileOutputStream=FileStream
+BufferedOutputStream=BufferedStream
+BufferedInputStream=BufferedStream
+ByteArrayInputStream=MemoryStream
+ByteArrayOutputStream=MemoryStream
+OutputStream=Stream
+DeflaterStream=DeflaterOutputStream
+bos.write(sb.charAt(i))=bos.WriteByte((byte) sb[i])
+dos.finish()=dos.Finish()
+.toByteArray(=.ToArray(
+.write((byte)=.WriteByte((byte)
+.write(=.Write(
+writeTo(=WriteTo(
+.close(=.Close(
+.reset()=.SetLength(0)
+.read(=.ReadByte(
+.readLine(=.ReadLine(
+
+# Dealing with files
+new File("zlibwapi.dll").exists()=File.Exists("zlibwapi.dll")
+new File(fileName).exists()=File.Exists(fileName)
+(new File(fileName)).length();=(new FileInfo(fileName)).Length;
+
+# StringBuilder
+.charAt(i)=[i]
+.charAt(0)=[0]
+.charAt(1)=[1]
+.charAt(2)=[2]
+.charAt(3)=[3]
+.charAt(4)=[4]
+.charAt(5)=[5]
+.charAt(6)=[6]
+.charAt(7)=[7]
+.charAt(8)=[8]
+.charAt(9)=[9]
+.charAt(10)=[10]
+.charAt(11)=[11]
+.insert(=.Insert(
+.toString(=.ToString(
+line.setLength(0)=line.Length = 0
+sb.setLength(0)=sb.Length = 0
+
+# Math
+.sin(=.Sin(
+.cos(=.Cos(
+
+# List and ArrayList
+new ArrayList=new List
+.clear(=.Clear(
+objects.get(j)=objects[j]
+list.get(i)=list[i]
+list.get(i + 1)=list[i + 1]
+list.get(0)=list[0]
+list.get(1)=list[1]
+list.get(2)=list[2]
+list.get(3)=list[3]
+list.get(4)=list[4]
+dict.get(i)=dict[i]
+dict.get(i + 1)=dict[i + 1]
+dict.get(i + 2)=dict[i + 2]
+dict.get(i + 3)=dict[i + 3]
+dict.get(i + 4)=dict[i + 4]
+dict.get(j + 1)=dict[j + 1]
+dict.get(j + 2)=dict[j + 2]
+dict.get(j + 3)=dict[j + 3]
+dict.get(j + 4)=dict[j + 4]
+dict.get(j)=dict[j]
+dict.get(0)=dict[0]
+dict.get(1)=dict[1]
+dict.get(2)=dict[2]
+dict.get(3)=dict[3]
+dict.get(4)=dict[4]
+dict.get(offset)=dict[offset]
+dict.get(k)=dict[k]
+tableData.get(index)=tableData[index]
+row.get(index)=row[index]
+row.get(0)=row[0]
+row.get(j)=row[j]
+series.get(i)=series[i]
+points.get(j)=points[j]
+points.get(0)=points[0]
+tableData.get(i).get(0)=tableData[i][0]
+tableData.get(j).get(0)=tableData[j][0]
+tableData.get(0)=tableData[0]
+fonts.get(0)=fonts[0]
+tableData.get(row).get(col)=tableData[row][col]
+tableData.get(tableData.size() + row).get(col)=tableData[tableData.Count + row][col]
+tableData.get(index1)=tableData[index1]
+tableData.get(index2)=tableData[index2]
+dataRow.get(dataRowColumns - 1).colspan=dataRow[dataRowColumns - 1].colspan
+series.get(0)=series[0]
+getData().get(0)=getData()[0]
+
+# Map and HashMap become Dictionary
+HashMap=Dictionary
+Map=Dictionary
+.get(fileName)=[fileName]
+.add(=.Add(
+.put(=.Add(
+
+# System.out becomes Console
+e.printStackTrace();=Console.WriteLine(e.StackTrace);
+System.out.println(=Console.WriteLine(
+System.err.println(=Console.WriteLine(
+System.out.print(=Console.Write(
+System.err.print(=Console.Write(
+
+# String
+.split(",", -1)=.Split(new Char[] {','})
+.split("\\|", -1)=.Split(new Char[] {'|'})
+.split("\t", -1)=.Split(new Char[] {'\t'})
+.startsWith(=.StartsWith(
+.endsWith(=.EndsWith(
+.equals(=.Equals(
+.toLowerCase(=.ToLower(
+.toUpperCase(=.ToUpper(
+.replace(=.Replace(
+.getBytes()=.ToCharArray(0, str.Length)
+.substring=.Substring
+.lastIndexOf=.LastIndexOf
+.trim=.Trim
+str.charAt(i + 1)=str[i + 1]
+String.valueOf( c2 )=c2.ToString()
+String.valueOf(k)=k.ToString()
+String.valueOf(num)=num.ToString()
+String.valueOf(val)=val.ToString()
+String.valueOf(offset)=offset.ToString()
+String.valueOf(digit)=digit.ToString()
+String.valueOf(check_digit)=check_digit.ToString()
+String.valueOf(pdf417.table[row][k])=pdf417.table[row][k].ToString()
+String.valueOf(tableA[digit])=tableA[digit].ToString()
+String.valueOf(GS1_128.TABLE[si])=GS1_128.TABLE[si].ToString()
+str.charAt(i)=str[i]
+str.charAt(i + 1)=str[i + 1]
+symbol.charAt(j)=symbol[j]
+line.indexOf=line.IndexOf
+
+# Image specific
+pdf.buf.size()=(int) pdf.buf.Length
+buf.size()=(int) buf.Length
+data.size()=data.Length
+comprFont.size()=comprFont.Length
+objOffset.size()=objOffset.Count
+(((int) buf[index++]) << 24) & 0xFF000000;=(int) (((uint) buf[index++] << 24) & 0xFF000000);
+
+# These are the most generic replacements - they should be at the end
+append(=Append(
+.length()=.Length
+.length=.Length
+.size()=.Count
+.get(i)=[i]
+.intValue()=
+.java=.cs
+extends=:
+void main(=void Main(
+boolean=bool
+static final=const
+
+com.pdfjet=PDFjet.NET
+
+save=Save
+setAuthor=SetAuthor
+setPathToFonts=SetPathToFonts
+setSubject=SetSubject
+setTitle=SetTitle
+getData=GetData
+wrap=Wrap
+flush=Flush
+drawOn=DrawOn
+setColor=SetColor
+setStartPoint=SetStartPoint
+setEndPoint=SetEndPoint
+setPattern=SetPattern
+setWidth=SetWidth
+getWidth=GetWidth
+setHeight=SetHeight
+getHeight=GetHeight
+setPosition=SetPosition
+setScale=SetScale
+setFont=SetFont
+setText=SetText
+setSize=SetSize
+setUnderline=SetUnderline
+setURIAction=SetURIAction
+placeIn=PlaceIn
+setFillShape=SetFillShape
+setShape=SetShape
+setRadius=SetRadius
+getX=GetX
+getY=GetY
+setX=SetX
+setY=SetY
+setKernPairs=SetKernPairs
+stringWidth=StringWidth
+addParagraph=AddParagraph
+setAlignment=SetAlignment
+void add(=void Add(
+setAlignment=SetAlignment
+getNumberOfPages=GetNumberOfPages
+setCellPadding=SetCellPadding
+setData=SetData
+setLineColor=SetLineColor
+setLineWidth=SetLineWidth
+setDirection=SetDirection
+setModuleLength=SetModuleLength
+getFont=GetFont
+setFgColor=SetFgColor
+setBgColor=SetBgColor
+getPoint=GetPoint
+setPoint=SetPoint
+getText=GetText
+intercept=Intercept
+slope=Slope
+setMinimumFractionDigits=SetMinimumFractionDigits
+setMaximumFractionDigits=SetMaximumFractionDigits
+scaleBy=ScaleBy
+setInfo=SetInfo
+setLinePattern=SetLinePattern
+setDrawLineTo=SetDrawLineTo
+getDrawLineTo=GetDrawLineTo
+getURIAction=GetURIAction
+getRadius=GetRadius
+getColor=GetColor
+getFillShape=GetFillShape
+getLinePattern=GetLinePattern
+getInfo=GetInfo
+getLineWidth=GetLineWidth
+getShape=GetShape
+autoAdjustColumnWidths=AutoAdjustColumnWidths
+hasMoreData=HasMoreData
+getCellAtRowColumn=GetCellAtRowColumn
+getCellAt=GetCellAt
+getColumn=GetColumn
+getRow=GetRow
+removeLineBetweenRows=RemoveLineBetweenRows
+rightAlignNumbers=RightAlignNumbers
+setStrikeLine=SetStrikeLine
+getStartPoint=GetStartPoint
+getEndPoint=GetEndPoint
+
+setBorder=SetBorder
+setNoBorders=SetNoBorders
+getBorder=GetBorder
+setPenColor=SetPenColor
+setBrushColor=SetBrushColor
+setColSpan=SetColSpan
+public void paint(=public virtual void Paint(
+drawBackground=DrawBackground
+drawBorders=DrawBorders
+drawText=DrawText
+cell.paint(=cell.Paint(
+setColumnWidth=SetColumnWidth
