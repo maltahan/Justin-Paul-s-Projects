@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=first\ rest
+comment0.target=ConsUFOShots(UFOShot,\ IUFOShots)
+comment1.params=w
+comment1.target=boolean\ belowHeight(UFOWorld)
+comment2.params=w
+comment2.target=IUFOShots\ move(UFOWorld)
+comment3.params=c
+comment3.target=boolean\ draw(Canvas)
+comment4.params=a\ w
+comment4.target=boolean\ hitsAUP(AUP,\ UFOWorld)
+numComments=5

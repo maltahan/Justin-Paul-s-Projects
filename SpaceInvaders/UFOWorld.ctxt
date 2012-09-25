@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=ufo\ aup\ shots\ UFOShots
+comment0.target=UFOWorld(UFO,\ AUP,\ IShots,\ IUFOShots)
+comment1.target=boolean\ draw()
+comment2.target=UFOWorld\ move()
+comment3.target=World\ onTick()
+comment4.params=key
+comment4.target=UFOWorld\ onKeyEvent(String)
+comment5.params=args
+comment5.target=void\ main(String[])
+numComments=6

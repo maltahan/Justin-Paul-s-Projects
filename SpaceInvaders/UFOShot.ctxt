@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=loc
+comment0.target=UFOShot(Posn)
+comment1.target=UFOShot\ move()
+comment2.params=lft\ x\ width
+comment2.target=boolean\ between(int,\ int,\ int)
+comment3.params=a\ w
+comment3.target=boolean\ hitsAUP(AUP,\ UFOWorld)
+comment4.params=c
+comment4.target=boolean\ draw(Canvas)
+numComments=5

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=loc
+comment0.target=Shot(Posn)
+comment1.target=Shot\ move()
+comment2.params=u
+comment2.target=boolean\ hitsUFO(UFO)
+comment3.params=p
+comment3.target=double\ distanceTo(Posn)
+comment4.params=c
+comment4.target=boolean\ draw(Canvas)
+numComments=5

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=first\ rest
+comment0.target=ConsShots(Shot,\ IShots)
+comment1.target=boolean\ aboveOrigin()
+comment2.target=IShots\ move()
+comment3.params=c
+comment3.target=boolean\ draw(Canvas)
+comment4.target=int\ length()
+comment5.params=u
+comment5.target=boolean\ hitsUFO(UFO)
+numComments=6

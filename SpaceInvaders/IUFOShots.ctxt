@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=c
+comment0.target=boolean\ draw(Canvas)
+comment1.params=w
+comment1.target=IUFOShots\ move(UFOWorld)
+comment2.params=a\ w
+comment2.target=boolean\ hitsAUP(AUP,\ UFOWorld)
+numComments=3
