@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.awt.image.BufferedImage\ test()
+comment1.params=path
+comment1.target=java.awt.image.BufferedImage\ getGrayscaleImage(java.lang.String)
+comment10.params=questNum
+comment10.target=java.lang.String\ getAnswerTest(int)
+comment2.params=img
+comment2.target=byte[]\ getImageData(java.awt.image.BufferedImage)
+comment3.params=b
+comment3.target=int\ unsignedByteRepresentation(byte)
+comment4.params=img
+comment4.target=double[]\ getHistogram(java.awt.image.BufferedImage)
+comment5.params=source
+comment5.target=void\ convertToGrayscale(java.awt.image.BufferedImage)
+comment6.params=rast
+comment6.target=void\ convertToBW(sun.awt.image.ByteInterleavedRaster)
+comment7.params=source
+comment7.target=void\ convertToBlackAndWhite(java.awt.image.BufferedImage)
+comment8.params=img\ x\ y
+comment8.target=int\ getPixel(java.awt.image.BufferedImage,\ int,\ int)
+comment9.params=img\ questNum
+comment9.target=java.lang.String\ getAnswer(java.awt.image.BufferedImage,\ int)
+numComments=11

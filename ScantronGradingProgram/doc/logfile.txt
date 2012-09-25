@@ -1,0 +1,60 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.6.0_21\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-source
+1.6
+-noindex
+-notree
+-nohelp
+-nonavbar
+-d
+C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\doc
+-classpath
+C:\BlueJ\lib\bluejcore.jar;C:\BlueJ\lib\junit.jar;C:\BlueJ\lib\userlib\jai_codec.jar;C:\BlueJ\lib\userlib\jai_core.jar;C:\BlueJ\lib\userlib\jai_imageio.jar;C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron
+C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\Prgm.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\Prgm.java...
+Constructing Javadoc information...
+C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\Prgm.java:12: warning: sun.awt.image.ByteInterleavedRaster is Sun proprietary API and may be removed in a future release
+import sun.awt.image.ByteInterleavedRaster;
+                    ^
+C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\Prgm.java:18: cannot find symbol
+symbol  : class ArrayList
+location: class Prgm
+    private static ArrayList<int> xPosns;
+                   ^
+C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\Prgm.java:18: unexpected type
+found   : int
+required: reference
+    private static ArrayList<int> xPosns;
+                             ^
+C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\Prgm.java:19: cannot find symbol
+symbol  : class ArrayList
+location: class Prgm
+    private static ArrayList<int> yPosns;
+                   ^
+C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\Prgm.java:19: unexpected type
+found   : int
+required: reference
+    private static ArrayList<int> yPosns;
+                             ^
+C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\Prgm.java:55: warning: sun.awt.image.ByteInterleavedRaster is Sun proprietary API and may be removed in a future release
+    private static void convertToBW(ByteInterleavedRaster rast) {
+                                    ^
+Standard Doclet version 1.6.0_21
+Building tree for all the packages and classes...
+Generating C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\doc\Prgm.html...
+Generating C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\doc\package-frame.html...
+Generating C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\doc\package-summary.html...
+Generating C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\doc\allclasses-frame.html...
+Generating C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\doc\allclasses-noframe.html...
+Generating C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\doc\index.html...
+Generating C:\Users\Ongion\Documents\12th Grade\Special Topics\Scantron\doc\stylesheet.css...
+6 warnings
